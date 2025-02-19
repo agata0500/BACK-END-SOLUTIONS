@@ -2,13 +2,16 @@
     // Define first name and last name
     $firstName = "Agata";
     $lastName = "Zareba"; 
-    $
+
 
     // Concatenate first and last name
-    $fullName = $firstName . " " . $lastName;
+    $fullnameLenght = $firstName . ' ' . $lastName;
 
     // Get the character count of $fullName
-    $nameLength = strlen($fullName);
+    $fullnameLength = strlen($fullName);
+    
+    echo "Full Name; " . $fullName . "<br>";
+    echo "Length of Full Name: " . $fullnameLenght;
 ?>
 
 <!DOCTYPE html>
